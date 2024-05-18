@@ -66,6 +66,7 @@ def main():
 
     holdings: list[Lot] = []
 
+    # TODO: break out data extraction to a separate function
     for position in positions:
         lots = position["lots"]
         for lot in lots:
